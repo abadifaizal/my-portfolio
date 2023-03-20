@@ -4,7 +4,7 @@ import Gradient from "../components/Gradient";
 export default function Collections() {
   return (
     <>
-      <div class="section-blue">
+      <div className="section-blue">
         <section id="projects">
           <h2>TODO Collections</h2>
           <article>

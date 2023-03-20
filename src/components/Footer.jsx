@@ -6,13 +6,13 @@ export default function Footer() {
       <h2>Faizal Abadi &middot; Frontend Dev</h2>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/faizal-abadi-36101638/" target="_blank">
+          <a href="https://www.linkedin.com/in/faizal-abadi-36101638/" target="_blank" rel="noreferrer">
             <span className="fa-brands fa-linkedin" aria-hidden="true"></span>
             <span className="sr-only">LinkedIn</span>
           </a>
         </li>
         <li>
-          <a href="https://abadifaizal.github.io/portfolio-project/" target="_blank">
+          <a href="https://abadifaizal.github.io/portfolio-project/" target="_blank" rel="noreferrer">
             <span className="fa-brands fa-square-github" aria-hidden="true"></span>
             <span className="sr-only">Github</span>
           </a>
