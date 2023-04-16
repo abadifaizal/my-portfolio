@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useScrollDirection } from "../helper/scrollDirection";
 
 export default function Header() {
+  const scrollDirection = useScrollDirection();
+
   return (
-    <nav>
+    <nav className={scrollDirection === 'up' ? 'hide' : 'show'}>
       <ul>
         <li>
           <h1>
@@ -13,8 +16,8 @@ export default function Header() {
             </Link>
           </h1>
         </li>
-        <li><Link to="projects">Projects</Link></li>
-        <li><Link to="collections">Collections</Link></li>
+        {/* <li><Link to="projects">Projects</Link></li> */}
+        {/* <li><Link to="collections">Collections</Link></li> */}
         <li><a href="mailto:abadifaizal@gmail.com" target="_blank" rel="noreferrer">Contact</a></li>
         <li>
           <a href="https://www.linkedin.com/in/faizal-abadi-36101638/" target="_blank" rel="noreferrer">
@@ -28,7 +31,9 @@ export default function Header() {
             <span className="sr-only">Github</span>
           </a>
         </li>
-        {/* <li><a href="#" className="button">Resume</a></li> */}
+        {/* <li>
+          <a href="#" className="button resume-button">Resume</a>
+        </li> */}
       </ul>
     </nav>
   )

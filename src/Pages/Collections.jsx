@@ -1,5 +1,5 @@
 import React from "react";
-import Gradient from "../components/Gradient";
+import GradientLine from "../components/GradientLine";
 
 export default function Collections() {
   return (
@@ -12,7 +12,7 @@ export default function Collections() {
           </article>
         </section>
       </div>
-      <Gradient/>
+      <GradientLine/>
     </>
   )
 }

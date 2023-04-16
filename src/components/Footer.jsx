@@ -3,7 +3,6 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <h2>Faizal Abadi &middot; Frontend Dev</h2>
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/faizal-abadi-36101638/" target="_blank" rel="noreferrer">
@@ -24,7 +23,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <p><small>&copy; 2021 Faizal Abadi. All rights reserved.</small></p>
+      <p><small>&copy; 2023 Faizal Abadi. All rights reserved.</small></p>
     </footer>
   )
 }

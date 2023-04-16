@@ -3,10 +3,9 @@ import React from "react";
 export default function Intro() {
   return (
     <section id="intro">
-      <p className="name">Hi, my name is <span>Faizal Abadi.</span></p>
-      <h2>I develop the front end of websites.</h2>
-      <p>I&apos;m a developer specializing in HTML, CSS, JS, React.</p>
-      <p>Currently, learning about Fullstack technology at the Frontend Master.</p>
+      <h1 className="name">Hi, my name is <span>Faizal Abadi.</span></h1>
+      <h2>I am a front-end web developer.</h2>
+      <p>based in Tokyo, Japan. <br/>I have develop many types of front-ends website.<br/>I&apos;m passionate about fullstack technology, beautiful interfaces and intuitively implemented UX.</p>
     </section>
   )
 }

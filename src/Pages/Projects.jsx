@@ -1,12 +1,12 @@
 import React from "react";
-import Gradient from "../components/Gradient";
+import GradientLine from "../components/GradientLine";
 
 export default function Projects() {
   return (
     <>
       <div className="section-blue">
         <section id="projects">
-          <h2>Projects I&apos;m proud of</h2>
+          <h2>Projects that </h2>
           <article>
             <div className="text">
               <h4>Latest Project</h4>
@@ -23,7 +23,7 @@ export default function Projects() {
           </article>
         </section>
       </div>
-      <Gradient/>
+      <GradientLine/>
     </>
   )
 }
