@@ -26,14 +26,14 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a href="https://abadifaizal.github.io/portfolio-project/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/abadifaizal" target="_blank" rel="noreferrer">
             <span className="fa-brands fa-square-github" aria-hidden="true"></span>
             <span className="sr-only">Github</span>
           </a>
         </li>
-        {/* <li>
-          <a href="#" className="button resume-button">Resume</a>
-        </li> */}
+        <li>
+          <a href="../assets/Documents/resume_faizal.pdf" target="_blank" rel="noreferrer" className="button resume-button">Resume</a>
+        </li>
       </ul>
     </nav>
   )
