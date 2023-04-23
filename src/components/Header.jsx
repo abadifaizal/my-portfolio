@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useScrollDirection } from "../helper/scrollDirection";
+import Resume from "../../src/assets/Documents/resume_faizal.pdf"
 
 export default function Header() {
   const scrollDirection = useScrollDirection();
@@ -32,7 +33,7 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a href="../assets/Documents/resume_faizal.pdf" target="_blank" rel="noreferrer" className="button resume-button">Resume</a>
+          <a href={Resume} target="_blank" rel="noreferrer" className="button resume-button">Resume</a>
         </li>
       </ul>
     </nav>
